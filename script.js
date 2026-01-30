@@ -12,13 +12,11 @@ const getSum = () => {
 
   const table = document.querySelector("table");
 
-  // Remove existing total row if already added
   const existingTotalRow = document.getElementById("total-row");
   if (existingTotalRow) {
     existingTotalRow.remove();
   }
 
-  // Create new row
   const totalRow = document.createElement("tr");
   totalRow.id = "total-row";
 
