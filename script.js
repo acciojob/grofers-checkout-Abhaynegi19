@@ -6,7 +6,7 @@ const getSum = () => {
 //Add your code here
 	const totalsum = document.querySelectorAll(".price");
 
-	let sum ;
+	let sum = 0;
 	for(let item of totalsum){
 		sum += item;
 	}
