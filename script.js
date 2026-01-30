@@ -8,7 +8,7 @@ const getSum = () => {
 
 	let sum = 0;
 	for(let item of totalsum){
-		sum += item;
+		sum += Number(item.textContent);
 	}
 	return sum;
 };
